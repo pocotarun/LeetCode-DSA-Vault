@@ -7,6 +7,8 @@ python >> my sudo code
 4. ye loop listindex ke aakhri se 2 index pehle hi stop hoga kyoki uske baad koi sawal hi nahi usta i < j< k ka yani last 3sre index pe stop
 """
 
+# This class contains a method that checks if there exists an increasing triplet in a given list of
+# integers.
 
 class Solution(object):
     def increasingTriplet(self, nums):
@@ -48,6 +50,10 @@ class Solution(object):
         except:
             return False
 
+# The code snippet you provided is testing the `Solution` class method `increasingTriplet` with two
+# different lists `numstestlist` and `numstestlist2`. It creates an instance of the `Solution` class,
+# sorts `numstestlist` in reverse order, deletes the element `3` from the list `xl`, and then prints
+# the modified list `xl`.
 
 # for testing dont read
 numstestlist: list = [1, 2, 3, 4, 5]
@@ -58,3 +64,5 @@ print(sorted(numstestlist, reverse=True))
 xl = [1, 2, 3, 4, 5, 6]
 del xl[xl.index(3)]
 print(xl)
+
+
