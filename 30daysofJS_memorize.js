@@ -4,5 +4,9 @@
 //  jo us button par click hone par
 //  web page ka background color 'lightblue' kar de.
 
-let myButton = document.querySelector(#my-button);
-myButton.addEventListener(click) = 
+// let myButton = document.querySelector(#my-button);
+// myButton.addEventListener(click) = 
+
+let a = 9 
+a = "tarun"
+console.log(a)
