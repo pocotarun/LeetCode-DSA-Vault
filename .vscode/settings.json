@@ -1,3 +1,4 @@
 {
-    "docwriter.style": "Auto-detect"
+    "docwriter.style": "Auto-detect",
+    "livePreview.defaultPreviewPath": "/30 Days Of JS/flexbox.html"
 }

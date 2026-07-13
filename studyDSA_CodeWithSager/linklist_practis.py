@@ -48,7 +48,7 @@ mylist = linklist4Public("Apple")
 mylist.printlinklist()
 print(mylist.printlinklist()) """
 
-class khaliNode:
+""" class khaliNode:
     def __init__(self, data, next=None):
         self.data = data
         self.next = next  # Ek node ban gaya jo data aur agle node ka pata rakhega
@@ -75,7 +75,65 @@ class linklist4Public:
 mylist = linklist4Public("Apple")
 
 # 2. Ab humne printlinklist function ko call kiya (bina bahar print lagaye)
-mylist.printlinklist()
+mylist.printlinklist() """
+
+
+
+
+
+
+""" class creatNode2boxWala:
+    def __init__(self , data,next=None) :
+        self.data = data
+        self.next = next
+
+class creatLinklistInPublic:
+    def __init__(self,head=None):
+        self.head = head
+    def addDATA(self,userdata):
+        temp = creatNode2boxWala(userdata)
+        
+        if self.head is not None :
+            t1 = self.head
+            while (t1 is not None):
+                temp = t1
+            temp = self.next
+
+
+
+class printLinklist:
+    def consoleLog(self,linklist):
+     print(linklist)
+
+
+
+
+
+# ======== TESTING PHASE ==========
+firstLL = creatLinklistInPublic("Apple")
+firstLL.addDATA("Mango")
+printLinklist.consoleLog(firstLL)
+ """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
