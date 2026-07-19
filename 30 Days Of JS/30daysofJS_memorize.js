@@ -10,3 +10,11 @@
 let a = 9 
 a = "tarun"
 console.log(a)
+
+
+{
+    let a  = 23 ; 
+    let c = 37 ; 
+    console.log(c)
+}
+console.log(c)
